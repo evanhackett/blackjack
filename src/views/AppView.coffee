@@ -45,6 +45,3 @@ class window.AppView extends Backbone.View
     @$el.html @template()
     @$('.dealer-hand-container').html new HandView(collection: @model.get('game').get('dealerHand')).el
     @$('.player-hand-container').html new HandView(collection: @model.get('game').get('playerHand')).el
-    
-    
-
