@@ -51,8 +51,8 @@ class window.Game extends Backbone.Model
 
 
   checkForBusts: (hand)->
-    if hand .scores() > 21
-      hand .trigger 'bust'
+    if hand.scores() > 21
+      hand.trigger 'bust'
 
   nextHand: ->
     @set 'playerHand', @get('deck').dealPlayer()
