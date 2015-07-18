@@ -1,4 +1,5 @@
 class window.Game extends Backbone.Model
+  # initialize is called in the AppView on a 'play-again' event
   initialize: ->
     if not @get('deck')? or @get('deck').length < 15
       @set 'deck', new Deck()

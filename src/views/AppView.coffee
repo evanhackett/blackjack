@@ -14,7 +14,7 @@ class window.AppView extends Backbone.View
     'click .hit-button': -> @model.get('game').get('playerHand').hit()
     'click .stand-button': -> @model.get('game').get('playerHand').stand()
     'click .play-again': -> 
-      @model.get('game').initialize()
+      @model.get('game').initialize() # might be bad practice to call initialize like this...
       $('.winner-announcement').text ''
       @initializePlayerListener()
       @render()
