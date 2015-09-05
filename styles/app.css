@@ -55,3 +55,9 @@ button:hover {
   margin-top: 30px;
   text-align: center;
 }
+
+.banner {
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 64;
+  text-align: center;
+}
