@@ -1,5 +1,5 @@
 # blackjack
-Simple Blackjack game. Uses coffeescript. 
+Simple Blackjack game. Uses coffeescript and Backbone.js. 
 
 See online: http://evanhackett.com/blackjack/
 
