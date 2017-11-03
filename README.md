@@ -1,4 +1,4 @@
-#blackjack
+# blackjack
 Simple Blackjack game. Uses coffeescript. 
 
 See online: http://evanhackett.com/blackjack/
